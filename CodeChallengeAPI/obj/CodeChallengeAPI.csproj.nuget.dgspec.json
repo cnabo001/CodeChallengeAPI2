@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\codeChallenge\\CodeChallengeAPI\\CodeChallengeAPI.csproj": {}
+    "C:\\Users\\cnabo\\Source\\Repos\\CodeChallengeAPI2\\CodeChallengeAPI\\CodeChallengeAPI.csproj": {}
   },
   "projects": {
-    "C:\\codeChallenge\\CodeChallengeAPI\\CodeChallengeAPI.csproj": {
+    "C:\\Users\\cnabo\\Source\\Repos\\CodeChallengeAPI2\\CodeChallengeAPI\\CodeChallengeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\codeChallenge\\CodeChallengeAPI\\CodeChallengeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\cnabo\\Source\\Repos\\CodeChallengeAPI2\\CodeChallengeAPI\\CodeChallengeAPI.csproj",
         "projectName": "CodeChallengeAPI",
-        "projectPath": "C:\\codeChallenge\\CodeChallengeAPI\\CodeChallengeAPI.csproj",
+        "projectPath": "C:\\Users\\cnabo\\Source\\Repos\\CodeChallengeAPI2\\CodeChallengeAPI\\CodeChallengeAPI.csproj",
         "packagesPath": "C:\\Users\\cnabo\\.nuget\\packages\\",
-        "outputPath": "C:\\codeChallenge\\CodeChallengeAPI\\obj\\",
+        "outputPath": "C:\\Users\\cnabo\\Source\\Repos\\CodeChallengeAPI2\\CodeChallengeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cnabo\\AppData\\Roaming\\NuGet\\NuGet.Config",

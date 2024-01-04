@@ -474,11 +474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\codeChallenge\\CodeChallengeAPI\\CodeChallengeAPI.csproj",
+      "projectUniqueName": "C:\\Users\\cnabo\\Source\\Repos\\CodeChallengeAPI2\\CodeChallengeAPI\\CodeChallengeAPI.csproj",
       "projectName": "CodeChallengeAPI",
-      "projectPath": "c:\\codeChallenge\\CodeChallengeAPI\\CodeChallengeAPI.csproj",
+      "projectPath": "C:\\Users\\cnabo\\Source\\Repos\\CodeChallengeAPI2\\CodeChallengeAPI\\CodeChallengeAPI.csproj",
       "packagesPath": "C:\\Users\\cnabo\\.nuget\\packages\\",
-      "outputPath": "c:\\codeChallenge\\CodeChallengeAPI\\obj\\",
+      "outputPath": "C:\\Users\\cnabo\\Source\\Repos\\CodeChallengeAPI2\\CodeChallengeAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cnabo\\AppData\\Roaming\\NuGet\\NuGet.Config",

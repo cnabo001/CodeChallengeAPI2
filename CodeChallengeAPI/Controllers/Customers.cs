@@ -28,5 +28,17 @@ namespace CodeChallengeAPI.Controllers
             return await _service.AddCustomer(customer);
         }
 
+        [HttpPut]
+        public async Task<List<Models.Customers>> UpdateCustomer([FromBody] Models.Customers customer)
+        {
+            return await _service.UpdateCustomer(customer);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<bool> DeleteCustomer([FromRoute] int id)
+        {
+            return await _service.DeleteCustomer(id);
+        }
+
     }
 }

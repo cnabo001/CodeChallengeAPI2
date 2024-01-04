@@ -36,6 +36,43 @@ namespace CodeChallengeAPI.Services
             
         }
 
+        public async Task<List<Customers>> UpdateCustomer(Customers customer)
+        {
+            var customers = await ReadData();
+            foreach(var c in customers)
+            {
+                if(c.Id == customer.Id)
+                {
+                    c.FirstName = customer.FirstName;
+                    c.LastName = customer.LastName;
+                    c.Email = customer.Email;
+                    c.UpdatedOn = DateTime.Now;
+                    await WriteData(customers);
+                }
+            }
+
+            return customers;
+        }
+
+        public async  Task<bool> DeleteCustomer(int customerId)
+        {
+                var customers = await ReadData();
+
+                foreach(var customer in customers)
+                {
+                    if(customer.Id == customerId)
+                    {
+                        customers.Remove(customer);
+                        await WriteData(customers);
+                        return true;
+                    } else
+                    {
+                        return false;
+                    }
+                }
+            return false;
+        }
+
 
         private async Task  WriteData(List<Customers> customers)
         {

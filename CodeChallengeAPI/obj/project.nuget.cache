@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bad7CbA5wi72elPblA4AiyOkpMeoMSial8hJaEruqLJVedKlCaBc141XxvSUA7/NZeMYKMF0UgQZS+alNj+FDw==",
+  "dgSpecHash": "3BZQ1x4usGdhi8sQvoS4nHH8kc4eXMt+VlQl7MErfZlONwMZcni4aZ7CrjnxHkOEmSAzxA44XVYLUT08g3+aKA==",
   "success": true,
-  "projectFilePath": "C:\\codeChallenge\\CodeChallengeAPI\\CodeChallengeAPI.csproj",
+  "projectFilePath": "C:\\Users\\cnabo\\Source\\Repos\\CodeChallengeAPI2\\CodeChallengeAPI\\CodeChallengeAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cnabo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
     "C:\\Users\\cnabo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
