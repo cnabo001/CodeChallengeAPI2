@@ -27,19 +27,12 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-
-    var configuration = app.Configuration;
-    var appSettings = configuration.GetSection("AppSettings");
-    var useHttps = appSettings.GetValue<bool>("UseHttps");
-
-    if (!useHttps)
+    app.Use((context, next) =>
     {
-        app.Use((context, next) =>
-        {
-            context.Request.Scheme = "http";
-            return next();
-        });
-    }
+        context.Request.Scheme = "http";
+        return next();
+    });
+    
 }
 
 app.UseCors("CorsPolicy");
